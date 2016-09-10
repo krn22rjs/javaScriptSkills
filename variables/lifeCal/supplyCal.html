@@ -25,16 +25,18 @@
 </div>
 <script type="text/javascript">
   // variables
-var year = 2016;
-var birthYear = 1988;
+var Age = 25;
+var maxAge = 100;
+var perDay = 5;
 
-// calculating the age using variables
 
-var age = year - birthYear;
+// calculating how much you can eat for life
+
+var totalAmt = (perDay * 365) * (maxAge - Age);
 
 // using console.log for answer to appear
 
-console.log('They are either ' + age + ' or ' + (age-1));
+var message = 'You will need ' + totalAmt + ' cups of coffee t last you until the ripe age of ' + maxAge;
   </script>
 </body>
 </html>
